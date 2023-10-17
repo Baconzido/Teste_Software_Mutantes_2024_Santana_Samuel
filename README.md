@@ -6,4 +6,5 @@ Add
 Divide
 Subtrate
 Divide.....
-Check if input value entered is "2 digit" length
+test_maxdoublegigit()
+    -Check if input value entered is "2 digit" length
