@@ -1,10 +1,1 @@
-# Pytest017
-Calculator Test
-
-Pytest assertions are done to assert:
-Add
-Divide
-Subtrate
-Divide.....
-test_maxdoublegigit()
-    -Check if input value entered is "2 digit" length
+[Samuel_Augusto_atividade_2.pdf](https://github.com/user-attachments/files/16970546/Samuel_Augusto_atividade_2.pdf)
