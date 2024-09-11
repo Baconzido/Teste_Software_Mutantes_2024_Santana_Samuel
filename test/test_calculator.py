@@ -124,17 +124,5 @@ def test_invalid_selections(monkeypatch):
         with pytest.raises(ValueError):
             get_selection()
 
-def test_valid_selections(monkeypatch):
-    # Test valid selections
-    for valid_value in [1, 2, 3, 4]:
-        monkeypatch.setattr('builtins.input', lambda _: str(valid_value))
-        assert get_selection() == valid_value
-
-def test_invalid_selections(monkeypatch):
-    # Test invalid selections
-    for invalid_value in [0, 5, -1, 6]:
-        monkeypatch.setattr('builtins.input', lambda _: str(invalid_value))
-        with pytest.raises(ValueError):
-            get_selection()
 
 
