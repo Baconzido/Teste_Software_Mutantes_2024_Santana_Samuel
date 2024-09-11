@@ -1,0 +1,28 @@
+<html><body><h1>C:\GitHub\Teste_Software_Mutantes_2024_Santana_Samuel\calculator.py</h1>Killed 12 out of 14 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 6</h3><pre>--- C:\GitHub\Teste_Software_Mutantes_2024_Santana_Samuel\calculator.py
++++ C:\GitHub\Teste_Software_Mutantes_2024_Santana_Samuel\calculator.py
+@@ -15,7 +15,7 @@
+ 
+ def get_num(text):
+   try:
+-     return int(input(f"\n{text}"))
++     return int(input(f"XX\n{text}XX"))
+   except ValueError:
+      return "Please enter a valid integer"
+ 
+</pre><h3>Mutant 8</h3><pre>--- C:\GitHub\Teste_Software_Mutantes_2024_Santana_Samuel\calculator.py
++++ C:\GitHub\Teste_Software_Mutantes_2024_Santana_Samuel\calculator.py
+@@ -20,11 +20,11 @@
+      return "Please enter a valid integer"
+ 
+ def get_selection():
+-  selection = int(input("\nSelect your calculator operations: \
++  selection = int(input("XX\nSelect your calculator operations: \
+                       \n1.Addition\
+                       \n2.Subtraction\
+                       \n3.Multiplication\
+-                      \n4.Division\n\n"))
++                      \n4.Division\n\nXX"))
+   if selection not in (1, 2, 3, 4):
+     raise ValueError
+   return selection
+</pre></body></html>
